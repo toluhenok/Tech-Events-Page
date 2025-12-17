@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 8px;
+    background-color: green;
+    color: white;
+}
+.flex-container h1,
+.flex-container p {
+    margin: 1px;
+}
+
+.rect-brown{
+    background-color: rgb(30, 29, 28);
+    color: white;
+    padding: 10px 40px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-items span {
+    cursor: pointer;
+}
+
+.nav-items span:hover {
+    color: #4caf50;
+}
