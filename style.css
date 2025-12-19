@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
 }
 .flex-container {
     display: flex;
@@ -38,4 +39,31 @@ body {
 
 .nav-items span:hover {
     color: #4caf50;
+}
+
+.about {
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.about-events {
+    background-color: #ffffff;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.about-events h2 {
+    color: rgb(55, 92, 253);
+    margin-bottom: 12px;
+}
+
+.about-events p {
+    line-height: 1.5;
+    color: #555;
 }
