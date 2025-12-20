@@ -77,7 +77,7 @@ body {
     background-color: #f5f7fa;
     display: flex;
     justify-content: center;
-    padding: 10px 20px 40px;
+    padding: 10px 20px 10px;
 }
 
 .events-schedule {
@@ -103,4 +103,42 @@ td, th {
 tr:nth-child(odd) {
     background-color: #f0f0f0;
 }
+
+.speakers {
+    background-color: #f5f7fa;
+    padding: 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.meet-speakers {
+    background-color: #ffffff;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.meet-speakers h2 {
+    color: rgb(55, 92, 253);
+    margin-bottom: 16px;
+}
+
+.speaker-line {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.speaker-name {
+    color: rgb(55, 92, 253);
+    font-weight: 600;
+}
+
+.speaker-role {
+    color: #333;
+}
+
+
 
