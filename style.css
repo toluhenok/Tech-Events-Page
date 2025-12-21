@@ -140,5 +140,62 @@ tr:nth-child(odd) {
     color: #333;
 }
 
+.contact {
+    background-color: #f5f7fa;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
 
+.contact-box {
+    background-color: #ffffff;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
 
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 70%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.contact-box textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-box label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact-box input[type="submit"] {
+    background-color: rgb(55, 92, 253);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.contact-box input[type="submit"]:hover {
+    background-color: #244de6;
+}
+
+.contact-box h2 {
+    color: rgb(55, 92, 253);
+    margin-bottom: 20px;
+}
