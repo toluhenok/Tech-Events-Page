@@ -142,7 +142,7 @@ tr:nth-child(odd) {
 
 .contact {
     background-color: #f5f7fa;
-    padding: 40px 20px;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
 }
@@ -156,20 +156,42 @@ tr:nth-child(odd) {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
+.contact-box h2 {
+    color: rgb(55, 92, 253);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
 .contact-box form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-box .form-group {
+    width: 100%;
+    max-width: 70%;
+}
+
+.contact-box label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .contact-box input,
 .contact-box textarea {
-    width: 70%;
+    width: 100%;
     padding: 12px 14px;
     font-size: 16px;
     border-radius: 6px;
     border: 1px solid #ccc;
     outline: none;
+    box-sizing: border-box;
 }
 
 .contact-box textarea {
@@ -177,12 +199,8 @@ tr:nth-child(odd) {
     resize: vertical;
 }
 
-.contact-box label {
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.contact-box input[type="submit"] {
+.contact-box input[type="submit"] {    
+    width: 70%; 
     background-color: rgb(55, 92, 253);
     color: white;
     border: none;
@@ -195,7 +213,3 @@ tr:nth-child(odd) {
     background-color: #244de6;
 }
 
-.contact-box h2 {
-    color: rgb(55, 92, 253);
-    margin-bottom: 20px;
-}
