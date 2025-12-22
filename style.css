@@ -33,12 +33,16 @@ body {
     margin: 0 auto;
 }
 
-.nav-items span {
+.nav-items a {
     cursor: pointer;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
 }
 
-.nav-items span:hover {
-    color: #4caf50;
+.nav-items a:hover {
+    color: #c56c2d;
+    text-decoration: underline;
 }
 
 .about {
